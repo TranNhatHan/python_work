@@ -1,0 +1,2 @@
+message = "Careful!"
+print(message)

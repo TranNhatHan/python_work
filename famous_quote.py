@@ -1,0 +1,1 @@
+print('Son Tung MTP once said, "If you want to stand at the place nobody can stand, you have to suffer the feelings nobody can suffer"')
