@@ -1,0 +1,3 @@
+In Python I can read and write files
+In Python I can use pytest
+In Python I can do many projects
