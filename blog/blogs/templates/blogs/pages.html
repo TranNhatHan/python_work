@@ -1,0 +1,16 @@
+{% extends 'blogs/base.html' %}
+{% block content %}
+    <p>Page</p>
+    <ul>
+        {% for page in pages %}
+            <li>
+                <a href="{% url 'blogs:page' page.id %}">
+                    {{ page.name }}</a></li>
+            </li>
+        {% empty %}
+            <li>No pages have been added yet.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'blogs:new_page' %}">Add a new page</a>
+
+{% endblock content %}
