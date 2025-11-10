@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l)j5+@&&2a3-x5c^!6nnv1g&6(0#hpw+$qxyll4lk@wch4xk=h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-firebase-pythonwork-1760696760322.cluster-ikslh4rdsnbqsvu5nw3v4dqjj2.cloudworkstations.dev', '*']
 
 
 # Application definition
